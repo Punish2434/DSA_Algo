@@ -1,5 +1,6 @@
 // C++ CODE
-
+  class Solution{
+	  public:
     void help(vector<string> &ans,int zero,int one,string temp,int N){
         if(temp.length()==N){
             ans.push_back(temp);
@@ -18,8 +19,10 @@
 	    reverse(ans.begin(),ans.end());
 	    return ans;
 	}
-
+  };
 // JAVA CODE
+class Solution {
+
 
     static void help(ArrayList<String> ans,int zero,int one, StringBuilder temp, int N){
         if(temp.length()==N){
@@ -45,6 +48,7 @@
 	    Collections.reverse(ans);
 	    return ans;
     }
+}
 
 
 // Time Complexity:- O(2^N)
