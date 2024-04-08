@@ -1,4 +1,4 @@
-/*    Scroll below to see JAVA code also    */
+/*    Scroll below to see JAVA code and C# also    */
 /*
     Company Tags                : will update soon
     GFG Link                    : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
