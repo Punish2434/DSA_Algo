@@ -134,7 +134,6 @@ class Solution {
     }
 }
 / C# *************************************************************************************************/
-Certainly! Below is the C# implementation of the given Java code. I've also highlighted the key differences between the Java and C# versions:
 
 ```csharp
 using System;
