@@ -6,10 +6,7 @@
 
 
 / C++ ************************************************************************************************************/
-//Approach-1 (Recursion  + Memoization)
-//T.C : Without Memoization : O(n^m), where n is the length of the ring string and m is the length of the key string. This is because for each character in the key, 
-                             //the algorithm will explore all possible positions in the ring string recursively, without reusing any previous results.
-        //With Memoization  : O(n^2 * m)
+
 //S.C : O(101*101) ~ O(1)
 class Solution {
 public:
