@@ -1,6 +1,6 @@
-/*     Scroll below to see JAVA code also    */
+/*     Scroll below to see JAVA code and C# also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+   
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/remove-nodes-from-linked-list/
 */
