@@ -186,7 +186,7 @@ public class Solution
 }
 ```
 
-// In the converted C# code:
+
 // - I've changed the method names to follow C# naming conventions (e.g., `Solve` instead of `solve`).
 // - Used `string` instead of `String`.
 // - Cloned the `freq` array using `(int[])freq.Clone()` to avoid modifying the original array.
