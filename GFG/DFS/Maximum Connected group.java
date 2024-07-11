@@ -76,7 +76,7 @@ class Solution {
 //S.C : O(n^2)
 
 
-public class Solution {
+class Solution {
     public int dfs(int[][] grid, int i, int j, int index) {
         int n = grid.length;
         if (i < 0 || i >= n || j < 0 || j >= n || grid[i][j] != 1) {
@@ -105,13 +105,15 @@ public class Solution {
     }
 
     public int MaxConnection(int[][] grid) {
-        int n = grid.length, res = 0, index = 2, count;
+        int n = grid.length, res = 0, index = 2;
         Map<Integer, Integer> mp = new HashMap<>();
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
-                    mp.put(index, dfs(grid, i, j, index));
-                    res = Math.max(res, mp.get(index++));
+                    int count = dfs(grid, i, j, index);
+                    mp.put(index, count);
+                    res = Math.max(res, count);
+                    index++;
                 }
             }
         }
@@ -120,9 +122,11 @@ public class Solution {
                 if (grid[i][j] == 0) {
                     Set<Integer> s = new HashSet<>();
                     neighbours(grid, i, j, s);
-                    count = 1;
+                    int count = 1;
                     for (int val : s) {
-                        count += mp.get(val);
+                        if (mp.containsKey(val)) {
+                            count += mp.get(val);
+                        }
                     }
                     res = Math.max(res, count);
                 }
@@ -130,7 +134,10 @@ public class Solution {
         }
         return res;
     }
+
+    
 }
+
 / C# ************************************************************************************************************************/
 //Approach-(DFS)
 //T.C : O(n^2)
