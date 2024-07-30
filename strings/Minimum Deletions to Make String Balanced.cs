@@ -1,7 +1,7 @@
 /*         Scroll below to see JAVA code and C# also        */
 
-    // Company Tags                : Goldman Sachs, Amazon, IBM
-    // Leetcode Link               : https://leetcode.com/problems/count-number-of-teams/
+    // Company Tags                : 
+    // Leetcode Link               : https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/
 // JavaScript ********************************************************************************************************************************************/
 //Approach (Using array)
 // TC:𝑂((n)
