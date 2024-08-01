@@ -3,7 +3,7 @@
     // Company Tags                : 
     // Leetcode Link               : https://leetcode.com/problems/number-of-senior-citizens/
 // C++ ********************************************************************************************************************************************/
-//Approach (Using Recusison- memoiztion(DP) --> Top-down(DP))
+//Approach (Using Substring)
 // TC:𝑂(n)
 // SC:𝑂(1)
 #include <iostream>
@@ -36,8 +36,7 @@ int main() {
     return 0;
 }
 // Java ********************************************************************************************************************************************/
-//Approach (Using Recusison- memoiztion(DP) --> Top-down(DP))
-// TC:𝑂(n)
+//Approach (Using Substring)// TC:𝑂(n)
 // SC:𝑂(1)
 
 class Solution {
@@ -54,8 +53,7 @@ class Solution {
 }
 
 // C# ********************************************************************************************************************************************/
-//Approach (Using Recusison- memoiztion(DP) --> Top-down(DP))
-// TC:𝑂(n)
+//Approach (Using Substring)// TC:𝑂(n)
 // SC:𝑂(1)
 public class Solution {
     public int CountSeniors(string[] details) {
