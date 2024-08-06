@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code and C# also        */
 
-    // Company Tags                : 
+    // Company Tags                : Amazon
     // Leetcode Link               : https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/
 // Java ********************************************************************************************************************************************/
 //Approach (Using iterate over the sorted frequency array)
